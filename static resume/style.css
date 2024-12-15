@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f3f4f7, #e0e4e7);
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.links a {
+    color: #ffd700;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ffeb3b;
+}
+
+/* Sections */
+main section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+main section h2 {
+    color: #667eea;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: #fff;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #333;
+    color: #f4f4f9;
+}
+
+body.dark-mode header {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+}
+
+body.dark-mode footer {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+}
+
+body.dark-mode .links a {
+    color: #80d0ff;
+}
